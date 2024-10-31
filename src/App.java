@@ -8,7 +8,18 @@ public class App {
     //2. Print the contents of your ArrayList using loops. This should work even if 
     //   I add more elements to your ArrayList. For example, I might add "Ruby" to the
     //   ArrayList and this should still work.
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws Exception { 
+        ArrayList<String> languages = new ArrayList<>();
+
+        languages.add("Java");
+        languages.add("Python");
+        languages.add("JavaScript");
+
+        for(String i: languages){
+            System.out.println(i);
+        }
+
+
     
 
     }
